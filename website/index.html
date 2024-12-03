@@ -1,25 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
+
   <title>Frontend Mentor | Photosnap Website Challenge</title>
 </head>
+
 <body>
-  <img src="assets/shared/desktop/arrow.svg" alt="">
+  <main>
+    <!-- header -->
+    <header>
+      <nav class="left"><img src="assets/shared/desktop/logo.svg" alt="logo"></nav>
+      <nav class="center">
+        <a href="">stories</a>
+        <a href="">features</a>
+        <a href="">pricing</a>
+      </nav>
+      <nav class="right">
+        <a href="">GET AN INVITE</a>
+      </nav>
+    </header>
+    <!-- Début des sections (3 sections dans une grid) -->
+    <section class="principale">
 
-  <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14" class="color">
-    <g fill="none" fill-rule="evenodd" stroke="currentColor">
-      <path d="M0 7h41.864M35.428 1l6 6-6 6"/></g>
-  </svg>
+      <!-- 1ere section -->
+       
+        <article class="share">
+          <aside></aside>
+          <h2>CREATE AND SHARE YOUR PHOTO STORIES</h2>
+          <p>Photosnap is a platform for photographers and visual storytellers. We make it easy to share your stories
+            and
+            get analysis from your readers.</p>
+          <a href="">GET AN INVITE <img src="assets/shared/desktop/arrow.svg" alt=""></a>
+        </article>
+        <img id="create" src="assets\home\desktop\create-and-share.jpg" alt="Create and share">
+      
+      <!-- 2eme section -->
+      
+        <img id="beautiful"src="assets\home\desktop\beautiful-stories.jpg" alt="Beautiful stories">
+        <article class="beautiful">
+          <h2>BEAUTIFUL STORIES EVERY TIME</h2>
+          <p>We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and
+            media from other networks. Then share your story with everyone.</p>
+          <a href="">VIEW THE STORIES <img src="assets/shared/desktop/arrow.svg" alt="view"></a>
+        </article>
+      
+      <!-- 3eme section -->
+      
+        <article class="everyone">
+          <h2>DESIGNED FOR EVERYONE</h2>
+          <p>Photosnap can help you create stories that resonate with your audience. Our tools is designed for
+            photographers of all levels, brands, businesses you name it.</p>
+          <a href=""> VIEW THE STORIES <img src="assets/shared/desktop/arrow.svg" alt="view"></a>
+        </article>
+        <img id="everyone"src="assets\home\desktop\designed-for-everyone.jpg" alt="for-everyone">
+      
+    </section>
+    <!-- Fin des sections (grid principale)-->
+    <!-- Section 4 (grid unique) -->
+    <section class="fourth">
+      <article class="mountains">
+        <h3>The mountains</h3>
+        <p>by John appleseed</p>
+        <hr>
+        <a href="">Read Story <img src="assets/shared/desktop/arrow.svg" alt="mountains"></a>
+      </article>
+      <article class="sunset">
+        <h3>Sunset Cityscapes</h3>
+        <p>by Benjamin Cruz</p>
+        <hr>
+        <a href="">Read Story <img src="assets/shared/desktop/arrow.svg" alt="sunset"></a>
+      </article>
+      <article class="travel">
+        <h3>18 Days Voyage</h3>
+        <p>by Alexei Borodin</p>
+        <hr>
+        <a href="">Read Story <img src="assets/shared/desktop/arrow.svg" alt="river"></a>
+      </article>
+      <article class="architect">
+        <h3>Architecturals</h3>
+        <p>by Samantha Brooke</p>
+        <hr>
+        <a href="">Read Story <img src="assets/shared/desktop/arrow.svg" alt="architect"></a>
+      </article>
+    </section>
+    <!-- Section 5 (display flex) -->
+    <section class="fifth">
+      <article class="responsive">
+        <img src="assets\features\desktop\responsive.svg" alt="responsive">
+        <h3>100% responsive</h3>
+        <p>No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen.
+        </p>
+      </article>
+      <article class="no-limit">
+        <img src="assets\features\desktop\no-limit.svg" alt="no-limit">
+        <h3>No Photo Upload Limit</h3>
+        <p>Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one
+          go.</p>
+      </article>
+      <article class="embed">
+        <img src="assets\features\desktop\embed.svg" alt="embed">
+        <h3>Available to Embed</h3>
+        <p>Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more.</p>
+      </article>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="footr">
+        <div class="log"><img src="assets\shared\desktop\logo.svg" alt="logo"></div>
+        <div class="social">
+          <img src="assets\shared\desktop\facebook.svg" alt="facebook">
+          <img src="assets\shared\desktop\instagram.svg" alt="instagram">
+          <img src="assets\shared\desktop\twitter.svg" alt="twitter">
+          <img src="assets\shared\desktop\pinterest.svg" alt="pinterest">
+          <img src="assets\shared\desktop\youtube.svg" alt="youtube">
+        </div>
+        <div class="links">
+          <a href="">Home</a>
+          <a href="">Stories</a>
+          <a href="">Features</a>
+          <a href="">Pricing</a>
+        </div>
+        <div class="contact">
+          <a href="">Get an invite</a>
+          <p>Copyright 2020. All rights reserved</p>
+        </div>
+      </div>
+    </footer>
 
-  <svg>
-    <use href="assets/shared/desktop/arrow.svg" style="--color_fill: #000;"></use>
-  </svg>
-
-
+  </main>
 </body>
+
 </html>

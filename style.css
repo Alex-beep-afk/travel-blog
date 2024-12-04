@@ -1,0 +1,242 @@
+:root{
+    --font-family: "dm sans bold", sans-serif;
+    --font-size-principal: 16px;
+    --font-size-titre: 32px;
+    --font-size-paragraphe: 14px;
+    --principal-font-color: black;
+    --secondary-font-color: white;
+
+}
+/* conteneur-principal */
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    width:100vw;
+    height: 100vh;
+}
+p{
+    font-size: var(--font-size-paragraphe);
+
+}
+/* header */
+header{
+    background-color: white;
+    height: 72px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    /* navcenter */
+.center>a{
+    color: black;
+    text-decoration: none;
+    margin: 0 18px;
+}
+    /* navright */
+.right>a{
+    background-color: black;
+    color:white;
+    padding: 8px 24px;
+    text-decoration: none;
+}
+
+/* Section 1 /3 */
+.principale{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    gap:0px;
+}
+aside{
+    height: 304px;;
+    width: 6px;
+    background: linear-gradient(to top,	#FFC593,#BC7198,#5A77FF);
+    position: absolute;
+    left:0;
+}
+.share, .beautiful , .everyone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+}
+h2{
+    font-weight: bold;
+    font-size: 32px;
+}
+    /*section1 */
+.share>a{
+    text-decoration: none;
+    color: black; 
+    filter: invert(1);
+ 
+    
+}
+.share{
+    grid-area: 1/1/2/3 ;
+    background-color: black;
+    color: white;
+
+}
+#create{
+    width:100%;
+    grid-area: 1/3/2/6 ;
+}
+    /* section2 */
+#beautiful{
+    width:100%;
+    height:100%;
+    grid-area: 2/1/3/4;
+}
+.beautiful{
+    grid-area: 2/4/3/6 ;
+}
+    /* section3 */
+.everyone{
+    grid-area: 3/1/4/3;
+}
+#everyone{
+    grid-area: 3/3/4/6;
+    width:100%;
+    height:100%;
+}
+
+/* Section 4 */
+.fourth{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 500px;
+    gap: 0px;
+}
+.mountains, .sunset, .travel, .architect{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color:var(--secondary-font-color);
+    box-sizing: border-box;
+    padding: 10%;
+    transition: all 0.5s ease-in-out;
+
+}
+/* Cardhover */
+
+.mountains:hover, .sunset:hover, .travel:hover , .architect:hover{
+    transform: translateY(-50px);
+    transition: 1s ;
+    box-shadow: 0px 33px 16px -4px #8F9091 ;
+
+}
+/* Linehover */
+.blog::after{
+    content: "";
+    height: 0px;
+    width: 360px;
+    transform: translate(-36px, 36px);
+    background: linear-gradient(to left, #FFC593,#BC7198,#5A77FF);
+    
+}
+.blog:hover::after{
+    height:6px;
+}
+.bottom-art{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-art > a:nth-child(2) > img{
+    filter: invert(1);
+    opacity: 1;
+}
+hr{
+    width: 100%;
+}
+    /* Section 4 Article 1 */
+
+.mountains{
+    background-image: url("assets/stories/desktop/mountains.jpg");   
+}
+    /* Section 4 Article 2 */
+.sunset{
+    background-image: url("assets/stories/desktop/cityscapes.jpg");
+}
+    /* Section 4 Article 3 */
+.travel{
+    background-image: url("assets/stories/desktop/18-days-voyage.jpg");
+}
+    /* Section 4 Article 4 */
+.architect{
+    background-image: url("assets/stories/desktop/architecturals.jpg");
+}
+/* Section5 */
+.fifth{
+    display:flex;
+    gap:10px;
+    margin:50px;
+    justify-content: center;
+    align-items: center;
+}
+.responsive, .no-limit, .embed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+article.no-limit > img{
+    /* height: 72px; */
+    margin: 18px 0px;
+    
+}
+    
+/* Footer */
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    height:250px;
+    box-sizing: border-box;
+
+}
+/* Part left */
+.footr{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    filter: brightness(0) invert(1);
+}
+.log > img{
+    filter: invert(1);
+}
+/* Social part */
+ul{
+    list-style-type: none;
+    transform: translate(-300px,30px);
+}
+li{
+    color: var(--secondary-font-color);
+    margin: 20px;
+}
+/* Part right */
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+.contact > p{
+    color: var(--secondary-font-color);
+}

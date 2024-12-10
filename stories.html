@@ -1,126 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Photosnap Website Challenge</title>
+
+  <title>Frontend Mentor | Alexandre Prigent</title>
 </head>
+
 <body>
 
-  Stories
-  Features
-  Pricing
+  <main>
+    <!-- header -->
+    <header>
+      <nav class="left"><img src="assets/shared/desktop/logo.svg" alt="logo"></nav>
+      <nav class="center">
+        <a href="">Stories</a>
+        <a href="">Features</a>
+        <a href="">Pricing</a>
+      </nav>
+      <!-- Menu_Burger -->
+      <div class="burger">
+        <label for="toggle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path
+              d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
+            </svg></label>
+        <input type="checkbox" id="toggle">
+        <div class="menu" id="menu">
+          <a href="">Stories</a>
+          <a href="">Features</a>
+          <a href="">Pricing</a>
+          <hr id="burg">
+          <a href="">GET AN INVITE</a>
+        </div>
 
-  Get an invite
+      </div>
+      <!-- Fin_Menu_Burger -->
+      <nav class="right">
+        <a href="">GET AN INVITE</a>
+      </nav>
+    </header>
+    <!-- Top_Section -->
+    <section>
 
-  Last month's featured story
+      <h3>Last month's featured story</h3>
+      <h1>Hazy full moon of Appalachia</h1>
+      <div>
+        <div class="date">March 2nd 2020</div>
+        <div class="credit">by John Appleseed</div>
+      </div>
 
-  Hazy full moon of Appalachia
-  March 2nd 2020
-  by John Appleseed
+      <p>The dissected plateau area, while not actually made up of geological mountains,
+        is popularly called "mountains," especially in eastern Kentucky and West Virginia,
+        and while the ridges are not high, the terrain is extremely rugged.</p>
 
-  The dissected plateau area, while not actually made up of geological mountains, 
-  is popularly called "mountains," especially in eastern Kentucky and West Virginia, 
-  and while the ridges are not high, the terrain is extremely rugged.
-
-  Read the story
-
-  April 16th 2020
-  The Mountains
-  by John Appleseed
-  Read Story
-
-  April 14th 2020
-  Sunset Cityscapes
-  by Benjamin Cruz
-  Read Story
-
-  April 11th 2020
-  18 Days Voyage
-  by Alexei Borodin
-  Read Story
-
-  April 9th 2020
-  Architecturals
-  by Samantha Brooke
-  Read Story
-
-  April 7th 2020
-  World Tour 2019
-  by Timothy Wagner
-  Read Story
-
-  April 7th 2020
-  World Tour 2019
-  by Timothy Wagner
-  Read Story
-
-  April 3rd 2020
-  Unforeseen Corners
-  by William Malcolm
-  Read Story
-
-  March 29th 2020
-  King on Africa: Part II
-  by Tim Hillenburg
-  Read Story
-
-  March 21st 2020
-  The Trip to Nowhere
-  by Felicia Rourke
-  Read Story
-
-  March 19th 2020
-  Rage of The Sea
-  by Mohammed Abdul
-  Read Story
-
-  March 16th 2020
-  Running Free
-  by Michelle
-  Read Story
-
-  March 11th 2020
-  Behind the Waves
-  by Lamarr Wilson
-  Read Story
-
-  March 9th 2020
-  Calm Waters
-  by Samantha Brooke
-  Read Story
-
-  March 5th 2020
-  The Milky Way
-  by Benjamin Cruz
-  Read Story
-
-  March 4th 2020
-  Night at The Dark Forest
-  by  Mohammed Abdul
-  Read Story
-
-  March 1st 2020
-  Somwarpet’s Beauty
-  by Michelle
-  Read Story
-
-  February 25th 2020
-  Land of Dreams
-  by William Malcolm
-  Read Story
-
-  Home
-  Stories
-  Features
-  Pricing
-
-  Get an invite
-
-  Copyright 2019. All Rights Reserved
+      <a href="">Read the story<img src="assets/shared/desktop/logo.svg" alt="logo"></a>
+    </section>
+    <section class="grid_card">
+      <!-- Article 1 -->
+      <article>
+        <div class="date">April 16th 2020</div>
+        <h4>The Mountains</h4>
+        <div class="credit">by John Appleseed</div>
+        <a href="">Read the story<img src="assets/shared/desktop/logo.svg" alt="logo"></a>
+      </article>
+      <!-- Article 2 -->
+      <article>
+        <div class="date">April 14th 2020</div>
+        <h4>Sunset Cityscapes</h4>
+        <div class="credit">by Benjamin Cruz</div>
+        <a href="">Read the story<img src="assets/shared/desktop/logo.svg" alt="logo"></a>
+      </article>
+      <!-- Article 3 -->
+      <article>
+        <div class="date">April 11th 2020</div>
+        <h4>18 Days Voyage</h4>
+        <div class="credit">by Alexei Borodin</div>
+        <a href="">Read the story<img src="assets/shared/desktop/logo.svg" alt="logo"></a>
+      </article>
+      <!-- Article 4 -->
+      <article>
+        <div class="date">April 9th 2020</div>
+        <h4>Architecturals</h4>
+        <div class="credit">by Samantha Brooke</div>
+        <a href="">Read the story<img src="assets/shared/desktop/logo.svg" alt="logo"></a>
+      </article>
+      <!-- Article 5 -->
+      <article>
+        <div class="date">April 7th 2020</div>
+        <h4>World Tour 2019</h4>
+        <div class="credit">by Timothy Wagner</div>
+        <a href="">Read the story<img src="assets/shared/desktop/logo.svg" alt="logo"></a>
+      </article>
+      <!-- Article 6 -->
+      <article>
+        <div class="date">April 3rd 2020</div>
+        <h4>Unforeseen Corners</h4>
+        <div class="credit">by William Malcolm</div>
+        <a href="">Read the story<img src="assets/shared/desktop/logo.svg" alt="logo"></a>
+      </article>
+      <!-- Article 7 -->
+      <article>
+        <div class="date">March 29th 2020</div>
+        <h4>King on Africa: Part II</h4>
+        <div class="credit">by Tim Hillenburg</div>
+        <a href="">Read the story<img src="assets/shared/desktop/logo.svg" alt="logo"></a>
+      </article>
+      <!-- Article 8 -->
+      <article>
+        <div class="date">March 21st 2020</div>
+        <h4>The Trip to Nowhere</h4>
+        <div class="credit">by Felicia Rourke</div>
+        <a href="">Read the story<img src="assets/shared/desktop/logo.svg" alt="logo"></a>
+      </article>
+      <!-- Article 9 -->
+      <article>
+       <div class="date">March 19th 2020</div> 
+        <h4>Rage of The Sea</h4>
+        <div class="credit">by Mohammed Abdul</div>
+        <a href="">Read the story<img src="assets/shared/desktop/logo.svg" alt="logo"></a>
+      </article>
+      <!-- Article 10 -->
+      <article>
+        <div class="date">March 16th 2020</div>
+        <h4>Running Free</h4>
+        <div class="credit">by Michelle</div>
+        <a href="">Read the story<img src="assets/shared/desktop/logo.svg" alt="logo"></a>
+      </article>
+      <!-- Article 11 -->
+      <article>
+        <div class="date">March 11th 2020</div>
+        <h4>Behind the Waves</h4>
+        <div class="credit">by Lamarr Wilson</div>
+        <a href="">Read the story<img src="assets/shared/desktop/logo.svg" alt="logo"></a>
+      </article>
+      <!-- Article 12 -->
+      <article>
+        <div class="date">March 9th 2020</div>
+        <h4>Calm Waters</h4>
+        <div class="credit">by Samantha Brooke</div>
+        <a href="">Read the story<img src="assets/shared/desktop/logo.svg" alt="logo"></a>
+      </article>
+      <!-- Article 13 -->
+      <article>
+        <div class="date">March 5th 2020</div>
+        <h4>The Milky Way</h4>
+        <div class="credit">by Benjamin Cruz</div>
+        <a href="">Read the story<img src="assets/shared/desktop/logo.svg" alt="logo"></a>
+      </article>
+      <!-- Article 14 -->
+      <article>
+        <div class="date">March 4th 2020</div>
+        <h4>Night at The Dark Forest</h4>
+        <div class="credit">by Mohammed Abdul</div>
+        <a href="">Read the story<img src="assets/shared/desktop/logo.svg" alt="logo"></a>
+      </article>
+      <!-- Article 15 -->
+      <article>
+        <div class="date">March 1st 2020</div>
+        <h4>Somwarpet’s Beauty</h4>
+        <div class="credit">by Michelle</div>
+        <a href="">Read the story<img src="assets/shared/desktop/logo.svg" alt="logo"></a>
+      </article>
+      <!-- Article 16 -->
+      <article>
+        <div class="date">February 25th 2020</div>
+        <h4>Land of Dreams</h4>
+        <div class="credit">by William Malcolm</div>
+        <a href="">Read the story<img src="assets/shared/desktop/logo.svg" alt="logo"></a>
+      </article>
+    </section>
+    <footer>
+      <!-- Part left -->
+        <div class="footr">
+        <div class="log"><img src="assets\shared\desktop\logo.svg" alt="logo"></div>
+        <div class="social">
+          <img src="assets\shared\desktop\facebook.svg" alt="facebook">
+          <img src="assets\shared\desktop\instagram.svg" alt="instagram">
+          <img src="assets\shared\desktop\twitter.svg" alt="twitter">
+          <img src="assets\shared\desktop\pinterest.svg" alt="pinterest">
+          <img src="assets\shared\desktop\youtube.svg" alt="youtube">
+        </div>
+        </div>
+      <!-- Social part -->
+          <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Stories</a></li>
+          <li><a href="">Features</a></li>
+          <li><a href="">Pricing</a></li>
+          </ul>
+      <!-- Part right -->
+        <div class="contact">
+          <a href="">Get an invite <img src="assets/shared/desktop/arrow.svg" alt=""></a>
+          <p>Copyright 2020. All rights reserved</p>
+        </div>
+    </footer>
+  </main>
 
 </body>
+
 </html>

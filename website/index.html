@@ -17,10 +17,24 @@
     <header>
       <nav class="left"><img src="assets/shared/desktop/logo.svg" alt="logo"></nav>
       <nav class="center">
-        <a href="">stories</a>
-        <a href="">features</a>
-        <a href="">pricing</a>
+        <a href="">Stories</a>
+        <a href="">Features</a>
+        <a href="">Pricing</a>
       </nav>
+      <!-- Menu_Burger -->
+      <div class="burger">
+        <label for="toggle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg></label>
+        <input type="checkbox" id="toggle">
+        <div class="menu" id="menu">
+          <a href="">Stories</a>
+          <a href="">Features</a>
+          <a href="">Pricing</a>
+          <hr id="burg">
+          <a href="">GET AN INVITE</a>
+        </div>
+        
+      </div>
+      <!-- Fin_Menu_Burger -->
       <nav class="right">
         <a href="">GET AN INVITE</a>
       </nav>
@@ -62,32 +76,51 @@
       
     </section>
     <!-- Fin des sections (grid principale)-->
-    <!-- Section 4 (grid unique) -->
+    <!-- Grid_card -->
     <section class="fourth">
-      <article class="mountains">
+
+      <article class="mountains blog">
         <h3>The mountains</h3>
         <p>by John appleseed</p>
         <hr>
-        <a href="">Read Story <img src="assets/shared/desktop/arrow.svg" alt="mountains"></a>
+        <div class="bottom-art">
+          <a href="">Read Story </a>
+          <a href=""><img src="assets/shared/desktop/arrow.svg" alt="mountains"></a>
+        </div>
       </article>
-      <article class="sunset">
+
+      <article class="sunset blog">
         <h3>Sunset Cityscapes</h3>
         <p>by Benjamin Cruz</p>
         <hr>
-        <a href="">Read Story <img src="assets/shared/desktop/arrow.svg" alt="sunset"></a>
+        <div class="bottom-art">
+          <a href="">Read Story </a>
+          <a href=""><img src="assets/shared/desktop/arrow.svg" alt="sunset"></a>
+        </div>
       </article>
-      <article class="travel">
+
+      <article class="travel blog">
+
         <h3>18 Days Voyage</h3>
         <p>by Alexei Borodin</p>
         <hr>
-        <a href="">Read Story <img src="assets/shared/desktop/arrow.svg" alt="river"></a>
+        <div class="bottom-art">
+          <a href="">Read Story </a>
+          <a href=""><img src="assets/shared/desktop/arrow.svg" alt="river"></a>
+        </div>
       </article>
-      <article class="architect">
+
+      <article class="architect blog">
+
         <h3>Architecturals</h3>
         <p>by Samantha Brooke</p>
         <hr>
-        <a href="">Read Story <img src="assets/shared/desktop/arrow.svg" alt="architect"></a>
+        <div class="bottom-art">
+          <a href="">Read Story </a>
+          <a href=""><img src="assets/shared/desktop/arrow.svg" alt="architect"></a>
+        </div>
       </article>
+
     </section>
     <!-- Section 5 (display flex) -->
     <section class="fifth">
@@ -111,7 +144,8 @@
     </section>
     <!-- Footer -->
     <footer>
-      <div class="footr">
+      <!-- Part left -->
+        <div class="footr">
         <div class="log"><img src="assets\shared\desktop\logo.svg" alt="logo"></div>
         <div class="social">
           <img src="assets\shared\desktop\facebook.svg" alt="facebook">
@@ -120,20 +154,23 @@
           <img src="assets\shared\desktop\pinterest.svg" alt="pinterest">
           <img src="assets\shared\desktop\youtube.svg" alt="youtube">
         </div>
-        <div class="links">
-          <a href="">Home</a>
-          <a href="">Stories</a>
-          <a href="">Features</a>
-          <a href="">Pricing</a>
         </div>
+      <!-- Social part -->
+          <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Stories</a></li>
+          <li><a href="">Features</a></li>
+          <li><a href="">Pricing</a></li>
+          </ul>
+      <!-- Part right -->
         <div class="contact">
-          <a href="">Get an invite</a>
+          <a href="">Get an invite <img src="assets/shared/desktop/arrow.svg" alt=""></a>
           <p>Copyright 2020. All rights reserved</p>
         </div>
-      </div>
     </footer>
 
   </main>
+  <!-- <script src="script.js"></script> -->
 </body>
 
 </html>
